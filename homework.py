@@ -46,3 +46,5 @@ def Factorial_function_Asrorov_5(nums):
             x += 1
         lst.append(cnt)
     return lst
+def hello():
+    print("good morning")
