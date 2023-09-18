@@ -106,6 +106,70 @@ print(ekub_Toxtamuratov(24,36))
 
 
 
+"""
+
+def Qosimov_1_countKDifference(self, nums: List[int], k: int) -> int:
+        cnt=0
+        for i in range(len(nums)):
+            for j in range(len(nums)):
+                if i!=j:
+                    if nums[i]-nums[j]==k:
+                        cnt+=1
+        return cnt
+
+
+
+def Qosimov_2_arrayStringsAreEqual(self, word1: List[str], word2:
+List[str]) ->
+bool:
+        if ''.join(word1)==''.join(word2):
+            return True
+        else:
+            return False
+
+
+def Qosimov_3_countMatches(self, items: List[List[str]], ruleKey: str,
+ruleValue: str) -> int:
+        count=0
+        if ruleKey=="type":
+            for i in items:
+                if i[0]==ruleValue:
+                    count+=1
+        if ruleKey=="color":
+            for i in items:
+                if i[1]==ruleValue:
+                    count+=1
+        if ruleKey=="name":
+            for i in items:
+                if i[2]==ruleValue:
+                    count+=1
+        return count
+
+
+def Qosimov_4_mostWordsFound(self, sentences: List[str]) -> int:
+        count=0
+        for i in range(len(sentences)):
+            if sentences[i].count(' ') > count:
+                count=sentences[i].count(' ')
+        return count+1
+
+
+def Qosimov_5_kidsWithCandies(self, candies: List[int], extraCandies: int)
+->
+List[bool]:
+        M=max(candies)
+        arr = []
+        for i in range(len(candies)):
+            if candies[i]+extraCandies >= M:
+                arr.append(True)
+            else:
+                arr.append(False)
+        return arr
+
+
+
+
+"""
 
 
 
