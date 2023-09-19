@@ -240,6 +240,56 @@ sch = 0
 ls.append(N)
 print(topuvchi(N))
 
+''' 
+#Sobirjonov_Ilyosbek Eng uzun ketma-ketlik o'sib borishi 
+def find_lis(arr):    n = len(arr) 
+    lis = [1] * n 
+    for i in range(1, n):        for j in range(i): 
+            if arr[i] > arr[j] and lis[i] < lis[j] + 1:                lis[i] = lis[j] + 1 
+        length = max(lis) 
+    return length 
+ 
+#Sobirjonov_Ilyosbek  Shifrlash va shifrdan chiqarish 
+ 
+import random 
+def gcd(a, b):    while b != 0: 
+        a, b = b, a % b    return a 
+def generate_rsa_keypair(): 
+    p = random_prime()    q = random_prime() 
+    n = p * q 
+    phi = (p - 1) * (q - 1) 
+    e = random.randint(2, phi - 1)    while gcd(e, phi) > 1: 
+        e = random.randint(2, phi - 1) 
+    d = inverse_mod(e, phi) 
+    return ((e, n), (d, n)) 
+def encrypt_rsa(message, public_key): 
+    e, n = public_key    return pow(message, e, n) 
+def decrypt_rsa(ciphertext, private_key): 
+    d, n = private_key    return pow(ciphertext, d, n) 
+ 
+ 
+#Sobirjonov_Ilyosbek Farengeyt Celsiyga va teskarisi
+def celsius_to_fahrenheit(celsius):    fahrenheit = (celsius * 9/5) + 32 
+    return fahrenheit 
+def fahrenheit_to_celsius(fahrenheit):    celsius = (fahrenheit - 32) * 5/9 
+    return celsius
+
+#Sobirjonov_ILyosbek unli harf sanovchi dastur
+def count_vowels(string):    vowels = "aeiouAEIOU"
+    count = 0    
+    for char in string:        if char in vowels:
+            count += 1    
+    return count
+
+#Sobirjonov_Ilyosbek daraja aniqlovchi
+def power(x, n): 
+    result = 1 
+     
+    for _ in range(n): 
+        result *= x 
+     
+    return result
+'''
 
 
 
