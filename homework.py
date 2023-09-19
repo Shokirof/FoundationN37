@@ -26,6 +26,7 @@ def MukammalSon_function_Asrorov_2(num):
         return False
 
 
+
 def Polindrom_function_Asrorov_3(num):
     if num == num[::-1]:
         return True
@@ -203,7 +204,41 @@ Behruz_function3(a,b,s,d)
 
 print("Archa bayram qachon")
 #===========================================================
+def ramzem_singh(o):
+    son = 1
+    while son != 0:
+       m = 20
+       if o == m:
+          print("Aka yorvordiz")
+          break
+       if o > m:
+          print("Yuqoriga")
+       if o < m:
+          print("Pastga")
+       son -= 1
+Son = int(input("sonni kiriting brat:"))
+print(ramzem_singh(Son))
 
+def takrorlanuvchi_ramzem(ls):
+    ls = []
+    for i in Num:
+       x = Num.count(i)
+       if x <= 1:
+         ls.append(i)
+    print(ls)
+Num = list(map(str,input("Satrni kiriting ==> ").split())) 
+takrorlanuvchi_ramzem(Num,)       
+def topuvchi(Num):
+   for x in range(len(ls)):
+      son = ls[0]
+      if son == ls[x]:
+         sch += 1
+      return sch
+N = int(input())
+ls = []
+sch = 0
+ls.append(N)
+print(topuvchi(N))
 
 
 
