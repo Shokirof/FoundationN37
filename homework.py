@@ -201,7 +201,7 @@ def Behruz_function3(a,b,s,d):
 a,b,s,d=map(float,input("so'mni kiriting: ").split())
 Behruz_function3(a,b,s,d)
 
-
+print("Archa bayram qachon")
 #===========================================================
 
 
