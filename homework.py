@@ -170,13 +170,39 @@ List[bool]:
 
 
 """
+#====================================================
+def Behruz_function(name):
+    print(f"Salom ishyoqmas grajdan {name}")
+    print(f"Open budjetdan soqqa qalay {name}") 
 
-print("Bekzod")
+# ================================================
+
+def Behruz_function1(a,b):
+    return a ** b
+a,b = map(int,input("A va B ni kiriting: ").split())
+print(Behruz_function1(a,b))# a ni b inchi darajasini chiqaradi
+#================================================
+def Behruz_function2(a,b,c,d):
+    return a*b*c*d
+
+a,b,c,d=map(int,input("a,b,c,d ni kiriting: "))
+print(Behruz_function2(a,b,c,d))
+#=================================================
+
+def Behruz_function3(a,b,s,d):
+    M=a*12220.00
+    print(f"Dollar kursi: {M}")
+    K=b*13300.00
+    print(f"Euro kursi: {K}")
+    L=s*140.00
+    print(f"Rubl kursi: {L}")
+    G=d*15800.00
+    print(f"Funt sterling: {G}")
+a,b,s,d=map(float,input("so'mni kiriting: ").split())
+Behruz_function3(a,b,s,d)
 
 
-
-
-
+#===========================================================
 
 
 
