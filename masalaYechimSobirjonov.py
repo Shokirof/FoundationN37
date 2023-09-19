@@ -46,3 +46,11 @@ for move in moves:
 print(x, y)
 
 '''
+
+'''
+#Sort
+elements = input().split(', ')
+print("before sort:", elements)
+elements.sort()
+print("after sort:", elements)
+'''
