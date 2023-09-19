@@ -171,6 +171,12 @@ List[bool]:
 
 """
 
+print("Bekzod")
+
+
+
+
+
 
 
 
