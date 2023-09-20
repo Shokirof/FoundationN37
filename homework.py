@@ -352,7 +352,7 @@ def Tugadi(name):
       print("Qales",name)
    else:
       print("Nma gap",name[0:5])
-
+#Tugadi
 
 
 
