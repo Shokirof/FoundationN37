@@ -357,7 +357,34 @@ def Tugadi(name):
 
 
 
+def toq(lst):
+    sum = 0
+    for i in range(len(lst)):
+        if i % 2 == 1:
+            if lst[i] % 2 == 0:
+                sum+=lst[i]
+    return sum
 
+def ekub(a,b):
+    while b != 0:
+        a, b = b, a % b
+    return a
+
+def valyuta(a):
+    if a.endswith('$'):
+        a=a.removesuffix('$')
+        a=float(a)
+        return a*12120
+    elif a.endswith('R'):
+        a=a.removesuffix('R')
+        a=float(a)
+        return a*121
+    elif a.endswith('sum'):
+        a=a.removesuffix('sum')
+        a=float(a)
+        return a*1
+    else:
+        return "Bizda bunday valyuta kursi yoq"
 
 
 
