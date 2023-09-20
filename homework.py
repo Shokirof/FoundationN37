@@ -313,7 +313,7 @@ def Abduxoliq_1(i):
 def Abduxoliq_2(s):
     print("Hello",s)
 
-def Abduxoliq_3(a,b):
+def Abduxoliq_2_5(a,b):
     print(f"{a}+{b}={a+b}")
 
 def Abduxoliq_3(ls):
