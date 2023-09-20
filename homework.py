@@ -342,7 +342,8 @@ def Abduxoliq_6(ls):
 
     print("hello")      
 
-
+def Abduxoliq_7():
+   print ("Example")
 
 
 
