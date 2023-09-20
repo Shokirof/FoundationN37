@@ -336,7 +336,10 @@ def Abduxoliq_5(ls,ls1):
 
 
 
-
+def Abduxoliq_6(ls):
+   for i in ls:
+      print(i)
+      
 
 
 
