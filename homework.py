@@ -173,7 +173,7 @@ List[bool]:
 """
 #====================================================
 def Behruz_function(name):
-    print(f"Salom ishyoqmas grajdan {name}")
+    print(f"Salom ishyoqmas kamina {name}")
     print(f"Open budjetdan soqqa qalay {name}") 
 
 # ================================================
@@ -202,14 +202,14 @@ def Behruz_function3(a,b,s,d):
 a,b,s,d=map(float,input("so'mni kiriting: ").split())
 Behruz_function3(a,b,s,d)
 
-print("Archa bayram qachon")
+print("Ming somdan Akajonlar")
 #===========================================================
 def ramzem_singh(o):
     son = 1
     while son != 0:
        m = 20
        if o == m:
-          print("Aka yorvordiz")
+          print("Aka yorilibkediz")
           break
        if o > m:
           print("Yuqoriga")
@@ -332,11 +332,7 @@ def Abduxoliq_5(ls,ls1):
     for i,j in zip(ls,ls1):
         dc.setdefault(i,j)
     return dc
-    
-
-
-
-
+                                                        
 
 
 
