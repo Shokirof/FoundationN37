@@ -351,7 +351,7 @@ def Tugadi(name):
    if len(name)<5:
       print("Qales",name)
    else:
-      print("Nma gap",name[0:5])
+      print("Nmaa gap",name[0:5])
 
 
 
