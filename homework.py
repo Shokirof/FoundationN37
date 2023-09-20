@@ -394,7 +394,7 @@ def valyuta(a):
 
 
 
-
+#man uygi vazifani qildm
 
 
 
