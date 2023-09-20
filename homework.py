@@ -302,58 +302,59 @@ def power(x, n):
 
 
  ###########################################################################3
-
-def Abduxoliq_1(i):
-    if i>10:
-        return 
-    print(i)
-    Abduxoliq_1(i+1)
-
-
-def Abduxoliq_2(s):
-    print("Hello",s)
-
-def Abduxoliq_2_5(a,b):
-    print(f"{a}+{b}={a+b}")
-
-def Abduxoliq_3(ls):
-    for i in ls:
-        print(i**2)
-
-def Abduxoliq_4(tp):
-    ls=list(tp)
-    for i in range(len(ls)):
-        ls[i]=ls[i]**2
-    tp=tuple(ls)
-    return tp
-
-def Abduxoliq_5(ls,ls1):
-    dc={}
-    for i,j in zip(ls,ls1):
-        dc.setdefault(i,j)
-    return dc
-                                                        
-
-
-
-def Abduxoliq_6(ls):
-    for i in ls:
-      print(i)
-
-    print("hello")      
-
-def Abduxoliq_7():
-   print ("Example")
-
-
-
-def Tugadi(name):
-   if len(name)<5:
-      print("Qales",name)
-   else:
-      print("Nma gap",name[0:5])
-
-
+                                                                            #
+def Abduxoliq_1(i):                                                         #
+    if i>10:                                                                #
+        return                                                              #
+    print(i)                                                                #
+    Abduxoliq_1(i+1)                                                        #
+                                                                            #
+                                                                            #
+def Abduxoliq_2(s):                                                         #
+    print("Hello",s)                                                        #
+                                                                            #
+def Abduxoliq_2_5(a,b):                                                     #
+    print(f"{a}+{b}={a+b}")                                                 #
+                                                                            #
+def Abduxoliq_3(ls):                                                        #
+    for i in ls:                                                            #
+        print(i**2)                                                         #
+                                                                            #
+def Abduxoliq_4(tp):                                                        #
+    ls=list(tp)                                                             #
+    for i in range(len(ls)):                                                #
+        ls[i]=ls[i]**2                                                      #             
+    tp=tuple(ls)                                                            #
+    return tp                                                               #
+                                                                            #
+def Abduxoliq_5(ls,ls1):                                                    #
+    dc={}                                                                   #
+    for i,j in zip(ls,ls1):                                                 #
+        dc.setdefault(i,j)                                                  #
+    return dc                                                               #
+                                                                            #
+                                                                            #
+                                                                            #
+                                                                            #
+def Abduxoliq_6(ls):                                                        #
+    for i in ls:                                                            #
+      print(i)                                                              #
+                                                                            #
+    print("hello")                                                          #
+                                                                            #
+def Abduxoliq_7():                                                          #
+   print ("Example")                                                        #
+                                                                            #
+                                                                            #
+                                                                            #
+def Tugadi(name):                                                           #
+   if len(name)<5:                                                          #
+      print("Qales",name)                                                   #
+   else:                                                                    #
+      print("Nma gap",name[0:5])                                            #
+                                                                            #
+                                                                            #
+#############################################################################
 
 
 
