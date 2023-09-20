@@ -87,7 +87,7 @@ def powerToxtamuratov(a,b):
      return a
     else:
      return a*powerToxtamuratov(a,b-1)
-#print(powerToxtamuratov(2,7))
+#print(poterToxtamuratov(2,7))
 
 
 
@@ -198,11 +198,11 @@ def Behruz_function3(a,b,s,d):
     L=s*140.00
     print(f"Rubl kursi: {L}")
     G=d*15800.00
-    print(f"Funt sterling: {G}")
+    print(f"Funt steling: {G}")
 a,b,s,d=map(float,input("so'mni kiriting: ").split())
 Behruz_function3(a,b,s,d)
 
-print("Ming somdan Akajonlar")
+print("Ming somdan Akajonlar\n Iltimos silardan akajonlar")
 #===========================================================
 def ramzem_singh(o):
     son = 1
@@ -347,7 +347,11 @@ def Abduxoliq_7():
 
 
 
-
+def Tugadi(name):
+   if len(name)<5:
+      print("Qales",name)
+   else:
+      print("Nma gap",name[0:5])
 
 
 
