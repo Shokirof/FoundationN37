@@ -193,6 +193,7 @@ List[bool]:
 
 
 """
+"""
 #====================================================
 def Behruz_function(name):
     print(f"Salom ishyoqmas kamina {name}")
